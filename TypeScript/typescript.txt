@@ -1,0 +1,2 @@
+#### install typescript to node
+npx tsc --init --rootDir [rootDor] --outDir [outDir] build \
