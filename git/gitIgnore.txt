@@ -1,0 +1,15 @@
+########### git-ignore rule ############
+- git-ignore là plain text file, nơi mà mỗi dòng sẽ là tên file hoặc tên thư mục 
+nên ignore (không cho git tracking)
++ Rule:
+- ignore với file-name: .[file_name]
+- ignore với thư mục: [folder_name]/
+- ignore với regex: [regex_rule].[file_extension] (E.g: *.log)
+- Để bỏ qua ignore file mà bản thân nó đang nằm trong 1 list(thư mục, regex quét file) sử dụng ![relative_path_to_file]
+ E.g: 
+ *.log
+ !example.log 
+***** Note: Rule này chỉ hoạt động với việc ignore_1 list file, sẽ không work khi chúng ta ignore cho thư mục
+- Sử dụng **
++ Sẽ quét tất cả các file hoặc tên thư mục chỉ định
+E.g: **/logs => sẽ quét tất cả các file tên [logs] và các thư mục tên [logs]
