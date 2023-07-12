@@ -1,4 +1,10 @@
 - Một công cụ hay ho để tích hợp vào monorepo
 - Một số tính năng nổi trội
 + Remote catching:
-++ 
+++ Thông thường thì các file build project sẽ không được đẩy lên, nên mỗi khi member của team clone source will must build to run project
+nên vấn đề là mất thời gian để build code, vì vậy turbo sẽ build sẵn trên 1 global remote server (catching lại việc build code)
+- Turborepo tích hợp với monorepo:
++ Thông thường 1 monorepo sẽ có 2 phần chính là workspace và các task bên trong 1 workspace
+vì thế 1 số công cụ phải chạy 1 cách tuần tự để thực thi toàn bộ các task trong 1 workspaces
++ Turborepo sẽ thực hiện các task 1 cách song song, và chúng ta có thể điều khiển được các dependences
+của tường workspace
