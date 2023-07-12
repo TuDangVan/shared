@@ -1,2 +1,4 @@
 Moreover: Hơn thế nữa
 together: cùng nhau
+prerequisite: điều kiện trước tiên(kiên quyết)
+Installation: Cài đặt
