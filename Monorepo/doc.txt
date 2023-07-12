@@ -1,0 +1,2 @@
+- ý tưởng rất đơn giản khi chúng ta muốn xây dựng 1 single app, mà trong đó có nhiều app cùng hoạt động và sử dụng việc chia sẻ dữ liệu 
+giữa các ứng dụng

@@ -1,0 +1,4 @@
+-- Update node version (sử dụng nvm)
+Cmd:
+run: nvm install [version]
+nvm use [version]
