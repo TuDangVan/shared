@@ -1,0 +1,5 @@
+- xampp là máy chủ cho phép public ip local máy tới phpMyadmin server
+- Chỉ sử dụng phpMyadmin cho board nhỏ và vừa
+- Sử gụn mysqlworkspench cho board lớn
++ Replce some config before import:
+++ ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci; -> ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;

@@ -1,0 +1,2 @@
+- Step1: Create xero account develop (visit on "https://developer.xero.com/")
+- Step2: Add some config 

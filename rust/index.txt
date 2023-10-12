@@ -1,0 +1,15 @@
+Step-1: // Linux command uninstall rust on ubuntu
+$ sudo apt autoremove rustc
+Step-2: // download rust to linux server
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Step-3: // install rust with version specifying
+$ sudo apt install rustc=1.71.0
+Or use this command (This command can use to upgrade rustc version)
+$ rustup default 1.7.0
+Step-4: // install cargo on ubuntu
+$ sudo apt-get update
+$ sudo apt-get install cargo
+
+
+# Host open swagger-ui
+http://localhost:8080/swagger-ui/   

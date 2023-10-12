@@ -1,0 +1,30 @@
+- npm workspace là gì:
++ Là những command-line npm giúp chúng ta quản lý các việc thực thi các packages, khi trong project có nhiều package,
+mà chúng ta muốn quản lý việc thực thi chúng từ root project folder, ví dụ: run package, build package .... 
+- run một workspace:
+** Common command
+- Run tại global:
++ Run tất cả workspace: 
+    npm run <script-command> --ws | workspaces
+    Note: Command sẽ tìm trong package.json file field 
+     Package.json structure:
+      {
+        "workspaces": [
+            "packages/a",
+            "package/b",
+            "package/*"
+        ]
+      }
+      => Command sẽ chạy theo thứ tự các package được định nghĩa bên trong Package.json files
+---- <script-command>: build | start | any ===> Được định nghĩa bởi người lập trình define trong package-json
+====> Nó sẽ tìm trong package.json file của từng workspace nếu trùng khớp <script-command> thì sẽ run tương ứng
+- Run từng workspace (Chỉ định workspace để run command)
+-- Add một new work-space: 
++ Cmd: npm init -w ./packages/[package_name]
+-- Thêm 1 dependence vào 1 workspace
++ Cmd: npm install [package_dependence_name] -w [workspace_name]
+--- Run một script từ global context
++ Cmd: npm run [script_name] --workspace=[ws_n_1] --workspace=[ws_n_2] \\ multi_work_space
+
+
+

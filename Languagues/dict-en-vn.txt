@@ -1,4 +1,79 @@
-Moreover: Hơn thế nữa
-together: cùng nhau
-prerequisite: điều kiện trước tiên(kiên quyết)
-Installation: Cài đặt
+1. Moreover: Hơn thế nữa
+2. together: cùng nhau
+3. prerequisite: điều kiện trước tiên(kiên quyết)
+4. Installation: Cài đặt
+5. possible: khả thi
+6. what kind of: loại nào (sử dụng cho câu hỏi lựa chọn)
+7. confidence [ˈkänfədəns]: tự tin
+8. devoted: tận tâm
+9. exploits: khai thác
+10. demands: yêu cầu
+11. convention: quy ước (Hay dùng để nói về coding convention)
+12. so far: cho đến nay
+13. obtain: đạt được
+14. explicitly: rõ ràng
+15. introduce: giới thiệu
+16. potential: tiềm năng
+17. suppress: ngăn chặn
+18. guaranteed: đảm bảo
+19. compatible: tương thích
+20. mechanism: Cơ chế
+21. trait: đặc điểm
+22. concurrency: đồng thời
+23. illustrate: minh họa
+24. attempt: nỗ lực
+25. designated: chỉ định
+26. assumption: giả thiết
+27. immediately: ngay lập tức
+28. determines: xác định
+29. Specifying: Chỉ định
+30. Sequence: Tuần tự
+31. accomplish: Hoàn thành
+32. manifest: rõ ràng
+33. prevent: ngăn chặn
+34. take a moment: dành 1 chút thời gian
+35. safety: an toàn
+36. concurrency: đồng thời
+37. encourages: khuyến khích
+38. situation: tình huống
+39. attempt: nỗ lực
+40. The cause: Nguyên nhân
+41. kind of: loại
+42. sentence: câu ---> [sen ten ce]
+--> Build an sentence:
+----> The cause of (Nguyên nhân của cái gì)
+----> kind of + ST (Loại gì)
++++ The cause of this kind of bug
+43. especially: đặc biệt, especially, especially, especially [es pe cial ly]
+44. guarantees: đảm bảo, guarantess, guarantess, guarantess, [gua ran tess]
+45. thus: do đó
+----> Your code is thus easier to reason through (Mã của bạn do đó dễ dàng lý giải hơn)
+convenient
+46. in front of: đằng trước/ phía trước
+47: conveys: truyền đạt/ truyền tải [con vey]
+48: intent: ý định [in tent]
+----> sentence ---===== 
+E.x Adding mut also conveys intent to future readers of the code
+49: indicating: chỉ ra
+50: that other parts: những phần khác
+51: bound: ràng buộc
+----> sentence template
+E.x: Constants are values that are bound to a name (Những hằng là các giá trị rằng chúng được ràng buộc bởi tên)
+52: annotations: chú thích ----> [an(en) no ta tions]
+53: may be set only: Chỉ có thể được đặt
+55: able: có thể
+56: suffix: hậu tố
+57: prefix: tiền tố
+58: explain: giải thích 
+59: proper: thích hợp
+60: drop: rơi
+61: dropped: giảm xuống
+62: upon: trên
+63: coerced: ép buộc, ép kiểu
+64: semicolon: dấu chấm phẩy
+65: 
+### sentence:
+Don't modify the following two lines
+66: Rather: hơn là
+67: approaches: tiếp cận
+68: probably: có lẽ

@@ -1,0 +1,1 @@
+mongorestore --uri=mongodb://stg.wearecrane.com:26017/ C:\Project\Crane\db\stg\crane_1\crane_

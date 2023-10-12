@@ -1,0 +1,19 @@
+# Docker build cmd
+$ docker build --tag [container_name] .
+
+E.x: docker build --tag body_verifier . 
+
+# Docke
+$ docker run --detach --name [detach_name] \ 
+-e [key1]=[value1] \
+-e [key2]=[value2] \
+[container_name]
+E.x: 
+
+$ docker run --detach --name bodyVerifier \
+-e redis_url=redis://52.15.124.171:63796/ \
+-e stream=Service_specific_stream \
+-e API_stream=API_BACKEND \
+body_verifier
+
+*Note: Using \ để có thể viết command trên nhiều dòng 
