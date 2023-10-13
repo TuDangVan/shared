@@ -1,0 +1,2 @@
+- Room window (To change sidebar size)
+-> Go to File -> Preferences -> Settings -> (Search: window.zoomLevel)

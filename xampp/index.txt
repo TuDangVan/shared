@@ -1,0 +1,16 @@
+- install
+s1: Download xampp (visit on https://www.apachefriends.org/)
+s2: cd Downloads
+s3: chmod 755 xampp-linux-*-installer.run
+s4: sudo ./xampp-linux-*-installer.run
+
+- On ubuntu:
++ Change full permission 
+s1: cd /opt/lampp/htdocs/
+s2: sudo chmod -R 777 /opt/lampp/htdocs
+
+- Run xammpp GUI on ubuntu:
+sudo /opt/lampp/manager-linux-x64.run
+// Run Xampp GUI
+sudo /opt/lampp/./manager-linux-x64.run
+
