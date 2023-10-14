@@ -14,3 +14,6 @@ sudo /opt/lampp/manager-linux-x64.run
 // Run Xampp GUI
 sudo /opt/lampp/./manager-linux-x64.run
 
+- Open xampp GUI:
+sudo /opt/lampp/lampp start
+
