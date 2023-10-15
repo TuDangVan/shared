@@ -30,3 +30,10 @@ Source: Conversation with Bing, 10/15/2023
 (2) How to show/check for open ports on Ubuntu Linux. https://linuxconfig.org/how-to-check-for-open-ports-on-ubuntu-linux.
 (3) How to List Open Ports in Ubuntu Linux - Fedingo. https://fedingo.com/how-to-list-open-ports-in-ubuntu-linux/.
 (4) Ways to Find Out List of All Open Ports in Linux. https://www.geeksforgeeks.org/ways-to-find-out-list-of-all-open-ports-in-linux/.
+
+
+- CMD: coppy from an folder to another folder with path
+cp -a [from_path] [to_path]
+
+- CMD: log path of current folder
+pwd
