@@ -1,0 +1,32 @@
+- See all ports running:
+To see all the ports running on your Ubuntu system, you can use the `netstat`, `ss`, or `lsof` commands¹². Here are a few examples:
+
+- **netstat**: This command can provide information about network connections. To list all TCP or UDP ports that are being listened on, including the services using the ports and the socket status, use the following command¹:
+
+```bash
+sudo netstat -tunlp
+```
+The options used in this command have the following meanings:
+    - `-t` - Show TCP ports.
+    - `-u` - Show UDP ports.
+    - `-n` - Show numerical addresses instead of resolving hosts.
+    - `-l` - Show only listening ports.
+    - `-p` - Show the PID and name of the listener’s process¹.
+
+- **ss**: The `ss` command can be used to show which ports are listening for connections. It also shows which networks it's accepting the connections from². Here is an example command:
+
+```bash
+sudo ss -ltn
+```
+The options used in this command have the following meanings:
+    - `-l` - Show only listening sockets.
+    - `-t` - List all TCP ports.
+    - `-n` - Show numerical addresses instead of resolving hosts².
+
+Please note that you need to have root privileges to execute these commands. If you encounter any issues, please let me know! I'm here to help.
+
+Source: Conversation with Bing, 10/15/2023
+(1) How to Check for Listening Ports in Linux (Ports in use). https://linuxize.com/post/check-listening-ports-linux/.
+(2) How to show/check for open ports on Ubuntu Linux. https://linuxconfig.org/how-to-check-for-open-ports-on-ubuntu-linux.
+(3) How to List Open Ports in Ubuntu Linux - Fedingo. https://fedingo.com/how-to-list-open-ports-in-ubuntu-linux/.
+(4) Ways to Find Out List of All Open Ports in Linux. https://www.geeksforgeeks.org/ways-to-find-out-list-of-all-open-ports-in-linux/.

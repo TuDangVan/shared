@@ -1,5 +1,7 @@
 1) Step-1: How to install xampp on ubuntu? Or How to install apache server on ubuntu?
 2) Step-2: How to install mysql server on ubuntu 22.04?
+(Remember password when install mysql-server)
+
 Here are the steps to install MySQL server on Ubuntu 22.04:
 
 1. **Update your system**: It's important to keep your system up-to-date before installing new packages. You can update the system by running the following commands²:
@@ -142,6 +144,7 @@ Source: Conversation with Bing, 10/14/2023
 (4) How do I select a MySQL database through CLI? - Stack Overflow. https://stackoverflow.com/questions/5287024/how-do-i-select-a-mysql-database-through-cli.
 (5) How do you run a single query through mysql from the command line?. https://stackoverflow.com/questions/1602904/how-do-you-run-a-single-query-through-mysql-from-the-command-line.
 
+#######################################################################
 4) Step-4: How to access to htdocs of xampp on ubuntu?
 
 To access the `htdocs` directory of XAMPP on Ubuntu, you can follow these steps:
@@ -239,3 +242,37 @@ Source: Conversation with Bing, 10/14/2023
 (1) logging - How to see log files in MySQL? - Stack Overflow. https://stackoverflow.com/questions/5441972/how-to-see-log-files-in-mysql.
 (2) How to see mysql error logs? - Ask Ubuntu. https://askubuntu.com/questions/812001/how-to-see-mysql-error-logs.
 (3) How to Access MySQL Error Logs | DigitalOcean. https://www.digitalocean.com/community/tutorials/how-to-access-mysql-error-logs.
+
+
+################## Check mysql server status or re-start mysql server ###################################################
+
+To check if the MySQL server is running on Ubuntu, you can use the `systemctl` command with the `status` option⁴⁵. Open a terminal and enter the following command⁴⁵:
+
+```
+sudo systemctl status mysql
+```
+
+This command will show the current status of the MySQL service⁴⁵. If it is running, it will show an "active (running)" status³. If it is not running, it will display a message saying that the MySQL service is not running².
+
+You can also use the `service` command to check the status of the MySQL service²:
+
+```
+sudo service mysql status
+```
+
+If the server is not running correctly, you can type the following command to start it¹:
+
+```
+sudo service mysql restart
+```
+
+Please replace `mysql` with your actual MySQL service name¹²³⁴⁵.
+
+I hope this helps! Let me know if you have any other questions.
+
+Source: Conversation with Bing, 10/15/2023
+(1) How to Start/Stop MySQL Server on Ubuntu? – Its Linux FOSS. https://itslinuxfoss.com/start-stop-mysql-server-ubuntu/.
+(2) How to Install MySQL on Ubuntu 20.04 - phoenixNAP. https://phoenixnap.com/kb/install-mysql-ubuntu-20-04.
+(3) Checking If MySQL Is Running On Your Linux System. https://www.systranbox.com/checking-if-mysql-is-running-on-your-linux-system/.
+(4) HowTo: Find out If MySQL Is Running On Linux Or Not - nixCraft. https://www.cyberciti.biz/faq/how-to-find-out-if-mysql-is-running-on-linux/.
+(5) Install and configure a MySQL server | Ubuntu. https://ubuntu.com/server/docs/databases-mysql.
