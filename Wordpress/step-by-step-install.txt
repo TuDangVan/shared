@@ -1,0 +1,46 @@
+-step1: Install mysql-server
++ step 1.1: Config add new user with full permission
+
+To configure full permissions for a new user in MySQL server on Ubuntu, you can follow these steps:
+
+1. **Connect to MySQL**²:
+    ```
+    sudo mysql -u root -p
+    ```
+    If you have already set the root user password then the above command will prompt the password. After connecting to MySQL, you will be inside the MySQL command line².
+
+2. **Create a new user with a password**¹²:
+    ```
+    CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_user_password';
+    ```
+    Replace `'new_user'` with the actual user and `'new_user_password'` with the password that you want to set². This command will create a new user with the specified password¹².
+
+3. **Grant all privileges to the new user**¹⁵:
+    ```
+    GRANT ALL PRIVILEGES ON *.* TO 'new_user'@'localhost';
+    FLUSH PRIVILEGES;
+    ```
+    This command will grant all privileges to the new user¹⁵. Remember to replace `'new_user'` with your actual username¹⁵.
+
+Please note that these operations will change your MySQL configuration, so make sure you understand them and replace `'new_user'` and `'new_user_password'` with your actual username and password.
+
+Source: Conversation with Bing, 10/16/2023
+(1) Create MySQL User And Grant Privileges in Ubuntu 20.04 - Programming Fields. https://programmingfields.com/create-mysql-user-and-grant-privileges-in-ubuntu-20-04/.
+(2) How To Create a New User and Grant Permissions in MySQL. https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql.
+(3) How To Create a New User and Grant Permissions in MySQL. https://contabo.com/blog/how-to-create-a-user-and-grant-permissions-in-mysql/.
+(4) How to GRANT privileges to user on Ubuntu MySQL database?. https://stackoverflow.com/questions/59229423/how-to-grant-privileges-to-user-on-ubuntu-mysql-database.
+(5) How to Create MySQL Users Accounts and Grant Privileges in MySQL 8.0 On .... https://www.devtutorial.io/how-to-create-mysql-users-accounts-and-grant-privileges-in-mysql-8-0-on-ubuntu-server-20-04-p905.html.
+
++ step 1.2: Import database
+++ create new database: CREATE DATABASE [database_name]
+++ CMD: USE [database_name]
+++ CMD: SOURCE [//[path].sql]
+
+-step2: Install xampp (Config apache server)
+
+++ Coppy project to htdocs xampp 
+++ Update permission for project with cmd: chmod 777 ./[project_name]
+
+-step3(Optional): Intall mysql workbench (client) (Purpose test connection to mysql server)
+
+-step4: Add Config to wp-config.php with username, password is settings on step1
