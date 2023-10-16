@@ -1,6 +1,7 @@
 -step1: Install mysql-server
-+ step 1.1: Config add new user with full permission
-
++ step 1.1: Update new password for root user OR 
+CMD: ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY [new_user_password];
+Config add new user with full permission
 To configure full permissions for a new user in MySQL server on Ubuntu, you can follow these steps:
 
 1. **Connect to MySQL**²:
