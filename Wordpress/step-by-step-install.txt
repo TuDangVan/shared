@@ -45,3 +45,6 @@ Source: Conversation with Bing, 10/16/2023
 -step3(Optional): Intall mysql workbench (client) (Purpose test connection to mysql server)
 
 -step4: Add Config to wp-config.php with username, password is settings on step1
+
+
+************** https://ubuntu.com/tutorials/install-and-configure-wordpress#2-install-dependencies ************8

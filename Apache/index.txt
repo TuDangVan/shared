@@ -1,0 +1,7 @@
+- Check apache status:
+CMD: sudo systemctl status apache2
+sudo systemctl status apache2
+- Check apache server port:
+CMD: sudo netstat -anp | grep apache
+
+<sudo netstat -anp | grep apache>
