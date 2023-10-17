@@ -5,3 +5,34 @@ sudo systemctl status apache2
 CMD: sudo netstat -anp | grep apache
 
 <sudo netstat -anp | grep apache>
+
+- Config vitual host on ubuntu:
++ Step 1: Add project source to apache server at /var/www/html
+++ Step 1.1: Update wp_config.php includes: database,...<something>
++ Step 2: go to /etc/apache2/sites-available
+++ Step 2.1: Add vitual host config file with content:
+    <VirtualHost *:888>
+        ServerName potonow.com.vn
+        ServerAlias www.potonow.com.vn
+        ServerAdmin webmaster@potonow.com.vn
+        DocumentRoot /var/www/html/potonow
+        <Directory /var/www/html/potonow>
+            Options FollowSymLinks
+            AllowOverride Limit Options FileInfo
+            DirectoryIndex index.php
+            Require all granted
+        </Directory>
+        <Directory /var/www/html/potonow/wp-content>
+            Options FollowSymLinks
+            Require all granted
+        </Directory>
+    </VirtualHost>
++ Step 3: Save and close the file. Then, enable the new site and disable the default one:
+    sudo a2ensite mysite.conf
+    sudo a2dissite 000-default.conf
++ Step 4: Enable the Apache rewrite module and restart the Apache server:
+    sudo a2enmod rewrite
+    sudo systemctl restart apache2
++ Step 5: Update host name config
+    sudo nano (gedit) /etc/hosts
+
