@@ -1,0 +1,11 @@
+To config client site:
+Has two solutions to confg for client site
++ Acess to path: sudo /var/www
+** Solution 1:
++++ Add new folder ---> Recommend folder_name should match with server_name which already config at server site
+** Solution 2:
++++ Access to /var/www/html
++++ Add new folder ---> Recommend folder_name should match with server_name which already config at server site
+
+
+REMEMBER====> Should specify an index file [file_name].[html/php]

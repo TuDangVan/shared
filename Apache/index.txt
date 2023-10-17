@@ -36,3 +36,9 @@ CMD: sudo netstat -anp | grep apache
 + Step 5: Update host name config
     sudo nano (gedit) /etc/hosts
 
+++++ Tracking log on vitual host:
+Access to: /var/log/apache2
+
+
+
+

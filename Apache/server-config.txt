@@ -1,0 +1,64 @@
+--- Step config apache server:
++++ To see log on apache server:
+---> access to path: cd /var/log/apache2
++++ To config apache server: for_example: vitualhost, ports_config, check site_enable, site_disabled:
+---> access to path: cd /etc/apache2
++++++++++++>>>>>> Config port: sudo gedit /etc/apache2/ports.conf
++++ To add host_name:
+---> access to path: sudo gedit /etc/hosts
+
+---> After config run cmd:
++++ action site: CMD: sudo a2ensite [host].conf
++++ disable default site <optional>: if use port=80: CMD: sudo a2 dissite 000-default.conf
+Remember restart apache server each any change from server config:
+CMD: sudo systemctl restart apache2
+
++++ Note for vitualhost config:
+1) With html file
+- With this config must create/coppy source to client source at path /var/www/[domain]
+- unuseful:
++ If source code already exist at somewhere we must clone again source code, so It has issue duplicate code
+For example:
+<VirtualHost *:8181 .*80 [other_ports]>
+    ServerAdmin admin@hoho.com.vn
+    ServerName hoho.com.vn
+    ServerAlias www.hoho.com.vn
+    DocumentRoot /var/www/hoho.com.vn/public_html
+    ErrorLog ${APACHE_LOG_DIR}/hoho.com.vn.error.log
+    CustomLog ${APACHE_LOG_DIR}/hoho.com.vn.access.log combined
+</VirtualHost>
+2) For Global config
+<VirtualHost *:888 .8181 [other_ports]>
+    ServerName [server_name]
+    ServerAdmin webmaster@[server_name]
+    DocumentRoot [path_to_root_folder_project]
+    #### This is start config for project folder workspace 
+    <Directory [path_to_root_folder_project]>
+        Options FollowSymLinks
+        AllowOverride Limit Options FileInfo
+        DirectoryIndex [filename].[php/html]
+        Require all granted
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/[server_name].error.log
+    CustomLog ${APACHE_LOG_DIR}/[server_name].access.log combined
+</VirtualHost>
+
+For example: 
+<VirtualHost *:888 .8181 [other_ports]>
+    ServerName potonow.com.vn
+    ServerAdmin webmaster@potonow.com.vn
+    DocumentRoot /opt/lampp/htdocs/potonow
+    <Directory /opt/lampp/htdocs/potonow>
+        Options FollowSymLinks
+        AllowOverride Limit Options FileInfo
+        DirectoryIndex index.php
+        Require all granted
+    </Directory>
+    <Directory /opt/lampp/htdocs/potonow/wp-content>
+        Options FollowSymLinks
+        Require all granted
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/potonow.com.vn.error.log
+    CustomLog ${APACHE_LOG_DIR}/potonow.com.vn.access.log combined
+</VirtualHost>
+
