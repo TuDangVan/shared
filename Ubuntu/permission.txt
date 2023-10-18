@@ -1,0 +1,9 @@
+- Concept: On ubuntu all is file
+For example: Folder, device, files -> files
+- Each file in ubuntu will have permission 
+- On ubuntu will device permisson with 3 levels: owner (u), group (g), others (o), all(a).
+- All permissions on ubuntu: 
++ Excute(x, 1), Write(w, 2), Read(r, 4)
++ Use add_permission(+), delete_permission(-), set_permission(=)
+- To config permission use command:
+ For Global Case: sudo chmod [user_specify]+/-[permission(xwr | 7)]

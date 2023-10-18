@@ -77,3 +77,4 @@ Don't modify the following two lines
 66: Rather: hơn là
 67: approaches: tiếp cận
 68: probably: có lẽ
+69: association: sự kết hợp
