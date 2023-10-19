@@ -1,0 +1,2 @@
+Step 1: SELECT * FROM potonow9.eJdt4_usermeta WHERE meta_key="eJdt4_capabilities";
+Step 2: UPDATE potonow9.eJdt4_usermeta SET user_id=93 WHERE user_id=6
