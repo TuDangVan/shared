@@ -37,3 +37,5 @@ cp -a [from_path] [to_path]
 
 - CMD: log path of current folder
 pwd
+
+- Open current folder on ubuntu use CMD: sudo xdg-open [path]
