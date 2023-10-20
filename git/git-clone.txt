@@ -1,3 +1,12 @@
 git clone https://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@github.com/TuDangVan/rust_pro.git
 https://github.com/TuDangVan/rust_pro.git
+
+
 git clone https://<Token>@github.com/<USERNAME>/<REPO_NAME>.git
+
+git clone https://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@github.com/DangTuVn/wearepixta/potonow_frontend.git
+
+
+https://github.com/wearepixta/potonow_frontend.git
+
+https://github.com/TuDangVan/rust_pro.git
