@@ -1,0 +1,3 @@
+- Nextjs is React Framework, used for build an full-stack web
+- Use React component to build pages
+- Nextjs additional features and optimizations
