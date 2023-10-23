@@ -1,0 +1,16 @@
+What?
+--- It's an custom api 
+--- It can also handle fetch from server, or redirect user when an page access, and has middleware to check & redirect user
+
+How?
+--- We need create an route file inside app folder,
+--- We can ozanigation api route with two solutions:
+++++ solution 1:
+ Define direct route.tsx inside segment folder
+++++ Solution 2:
+ Define an api folder where has route.tsx file 
+**** Recommend should use solution 1, because solution 2 should only use for define common api
+For example:
+    app
+        - api
+            - route.tsx

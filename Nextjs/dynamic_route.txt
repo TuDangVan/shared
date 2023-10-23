@@ -1,0 +1,30 @@
+- In nextjs dynamic router is defined in square brackets;
+For example:
+/posts/[slug]
+- And all dynamic router value is pass to param props in react:
+For example:
+const render_post = ({params}:{params: {slug: string}}) => {
+    return <>{params.slug}</>
+}
+
+- Use Generating Static Params:
+What Generating Statis Params: Its mean when an segment with dynnamic pages, we will fetch static page, and use
+cache to memory and build it, with this way it will help reduce performce of build time. It is the same idea page will 
+fetched from server side and it will auto cached, That mean with multi request same an param Layout and Pages will
+auto reused.
++ With dynamcic route
+
+- Cache-All-Segment:
+--> What?
++ It is when we want use an array param to build an path router
+--> How?
++ We can use this format: for folder name: [...folder_name]
+For example: /app/shop/[...slug]/page.js
+ ---> Will map shop/a/b/c...
+
+ - Optinal Cache All Segment:
+---> What?
+ + The same with Cache All Segment above
+---> How?
+ + It can accept for without param
+For example: app/shop/[[...slug]]/page.js -> param: {}

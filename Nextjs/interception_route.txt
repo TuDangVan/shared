@@ -1,0 +1,8 @@
+What?
+--- When we want display an context but we don't want redirect to an another route, we can use in this case
+How?
+--- We can use format: 
+    (.) -> It is map with segment with sample level
+    (..) -> It is map with segment with one level above
+    (...) -> It is map with root app
+    (..)(..) -> It used for nested child in interupt router, will map with two level above 

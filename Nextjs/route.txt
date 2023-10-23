@@ -1,0 +1,34 @@
+1) Nextjs help we can build an web front-end with orangization carefull:
++ Route -> Map Page.tsx
++ Route Structure:
+    (Base component: .(tsx | js | jsx))
+    - Global-Error
+    - Layout 
+    - Template
+    - Error
+    - Loading
+    - Page
+        - Global-Error
+        - Layout
+        - Template
+        - Error
+        - Loading
+        - Page
+            - Global-Error
+            - Layout
+            - Template
+            - Error
+            - Loading
+            - Page
+*** Remember:
+- With folder Structure nextjs auto wrapper app with common layout component
+For example: Error.js component will auto Create an ErrorBound for Segment or nested child in this segment
+
+- To catche an path of route: We need use 
++ For example we need check an page is activing we can use usePathname() -> to get path name on browser
+E.x: const pathname = usePathname();
+
+- To scroll to an element on nextjs:
++ Idea it will use base solution of an normal website, We need only use # after address path
+ (With this id must map with id of an component already exist in DOM)
+For example: <a href="/dashboard#setting">Dashboard</a> -> browser will auto scroll to element has id=setting

@@ -1,0 +1,22 @@
+- Has two solutions to redirect page:
++ Use <Link>: It provider by next
+ ++ It is extends from <a> tag html, Used in client component sites to redirect between pages
+ ++ It also provider prefetch data
+ ++ And It is the primary way to redirect between pages on nextjs
+
++ Use useRouter(): It used to redirect on client component site
+
+- How to Router work on server and client site with nextjs?
+
++ On server side:
+ ++ Route will auto decode and build to path from route folder Structure 
++ On Client side:
+ ++ Nextjs will prefetch data and catche route segment (On client side nextjs will cache all route segment)
+ ---> This mean when use acess to new route, the browser will not reload the page
+So what prefetch?
+ - <Link>: <Link> component Already we discuss above, on clien site when users visit to web-site in the first time, 
+    nextjs client will caches all route segment, It will auto prefetch page baseon route before user visit it.
+ - We have two options for define route: 
+  + Static route: prefetch default is true. The entire route is prefetched and cached
+  + Dynamic route: prefetch is automatic. <Read Later>
+

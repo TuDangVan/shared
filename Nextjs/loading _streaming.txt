@@ -1,0 +1,20 @@
+- When we define an </Loading> component at app folder, It will auto wrapper, segment or childrent in segment 
+- Streaming:
+--> What?
+ ++ Idea: Processing for data has size large:
+  --> Client -> Server -> Chuck response (small data) -> small data 
+ ++ Nextjs: Page's HTML chuck smallest and client will receive chuck data from server
+ ===> Improve UX for user when not need wait for all response
+ ===> Help display sooner for user, without waiting for all data to load before any UI can render
+- SSR: These step for SSR:
++ Server receive request from client 
+ -> Fetch data 
+ -> Render HTML
+ -> Send HTML, CSS, Javascript to client
+ -> Browser engine to render UI 
+ -> User can interactive on it.
+- SEO:
++ About comebin Streaming and SEO:
+---> How?
++ SEO is metadata on HTML page --> SEO work --> Fetch metadata is priority for all
++ Nextjs wait for data fetching in generateMetaData complete before stream UI to client.

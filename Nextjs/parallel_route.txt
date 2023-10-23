@@ -1,0 +1,14 @@
+- Nextjs allow parallel route, this mean on a page can use many route to render at the same time
++ How?
+---> We only define folder with format: @[folder] 
+For example:
+    @analytic
+        - error.tsx
+        - loading.tsx
+        - page.tsx
+    @team
+        - error.tsx
+        - loading.tsx
+        - page.tsx
+--> This meam, we can understand parallel route allow we stream data for each page, error component and Loading component
+is diference

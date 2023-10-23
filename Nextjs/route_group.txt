@@ -1,0 +1,15 @@
+- Beside use folder structure as a segment for define route structure, we can use format folder to define 
+an group router:
+For example: 
+- root
+    - (marketing)
+        - layout.tsx
+        - about
+            - page.tsx
+    - (checkout)
+        - layout.tsx
+        - about
+            - page.tsx
+    - (cart)
+        - layout.tsx
+-> It will useful when we has an dynamic design for each page, will use layout map with this page, because it is will skip group name.

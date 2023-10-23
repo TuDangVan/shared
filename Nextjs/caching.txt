@@ -1,0 +1,6 @@
+- Nextjs has an memory in client side called Router Cache
++ This mean when user visit to site, segment will cached. This willl help improve performce by reduce number request
+data tranfer between client and server
+
+- Patial rendering technology:
++ Base idea for tech: Only re-render again when router segment change, And base layout is not re-render on server
