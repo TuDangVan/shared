@@ -12,4 +12,12 @@ https://github.com/wearepixta/potonow_frontend.git
 https://github.com/TuDangVan/rust_pro.git
 
 //use for git push
-git push https://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@github.com/wearepixta/potonow_frontend.git
+
+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
+git push https://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@github.com/wearepixta/potonow_frontend.git
+
+- Skill 2: Convert pull, push code from https method to ssh method
++ Step 1: Check git remote (pull push): git remote -v
++ Step 2: Change to SSH method: git remote set-url origin [ssh-git_clone_url]
+
+git remote set-url origin [ssh_git_clone]
