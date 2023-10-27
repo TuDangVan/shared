@@ -1,0 +1,2 @@
+- When render image we want device auto resize image:
++ We can use csss property: object-fit: cover, object-position: top-center-bottom
