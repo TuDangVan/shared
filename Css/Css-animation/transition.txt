@@ -1,0 +1,17 @@
+- What?
+--> It used for animation css, with purpose when an element HTML change css, we want add animation
+for that change, we can use trasition property for this element
+- How?
+--> [css_selector] {
+    transition: [css_property_change] 
+}
+
+** For example: <li class="nav">About</li>
+.nav:hover {
+    background-color: red
+}
+
+.nav {
+    background-color: #fff;
+    transition: background-color 
+}
