@@ -1,0 +1,2 @@
+- Nestjs command auto generate moduler:
++ CMD: nest generate module <module_name>

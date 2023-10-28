@@ -12,6 +12,6 @@ for that change, we can use trasition property for this element
 }
 
 .nav {
-    background-color: #fff;
+    background-color: #fff; 
     transition: background-color 
 }
