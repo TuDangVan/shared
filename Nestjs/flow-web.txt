@@ -1,0 +1,3 @@
+client -> pipe (Tranform data | verify data) -> HttpExceptionFilter -> Middleware -> CLient
+            -> Pass -> DataPipe -> 
+            -> Error -> Throw exception

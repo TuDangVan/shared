@@ -1,0 +1,18 @@
+-- What?
++ It is an layer of nestjs artichure, designed to handle exceptions which not handler from your code
+--> When throw from controller --> This layer will caught it and process, and build an message frendly and return to
+client
+-- How?
++ We can use It from nestjs/common
++ We can custom it, with solution define an class HttpExceptionFilter(), after bind it to where we want 
+caught exception with scpoes valid.
+-- scopes:
+++ Method scope, Controller scope, Global scope
+
+** Remember: When bind to global scope it don't work for microservices or hybrid app.
+
+++ Remeber has two types exception we can implments:
+1) Only Filter Http exceptions
+2) Can filter all exception throw from app.
+
+

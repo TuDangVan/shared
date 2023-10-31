@@ -1,0 +1,8 @@
+- With nestjs mean idea is use dependence injection (DI), that mean all server will as a provider
+with decerator @Injection to can, when this class with this decorator it can inject another service and 
+same initial for class Injection
+
+- With AdminJs, self extends from nestjs-module, but it not extends provider property from nestjs, should
+when we want use an provider from out side service, we must add all that dependence injection to
+an common module, and after from this common module we import again to AdminJs module, finnaly we can use
+services out side.

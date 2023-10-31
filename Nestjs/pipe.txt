@@ -1,0 +1,40 @@
+-- What?
++ It is class annotated with Injectable() decorator, it implments PipeTransform. It is benefit
+to can tranfer request payload to real DTOS object.
++ Pipe has two types (Map with two ):
++++ Type1: Tranformation --> tranform data input -> desired form (For example: FROM STRING -> INTEGER)
++++ Type2: Validation --> valid data input 
+                        ----> If valid ---> return data (unchange)
+                        ----> else ---> Throw exception
++ Pipe will process parameters processed by controller (E.g: Body, Params, Query).
+-- How?
++ We can config pipe tranform to global scope
+
+*** Remember: Purpose of pipe handler is tranform, Or not will can throw Error 
+    If throw error ---> Exception Filter ---> Will catch this error and return response to client
+
+*** Type 1:
+  +++ Benefit for case: We want tranform data from client request (for example: String -> Int)
+  +++++ Or dynamic tranfer value ---> This is purpose of developer 
+  
+*** Type 2: Validate pipe, used to auto validate Body, Params, Query of context before run router handler
+---> How?
+- S1: Install nestjs validate class:  npm i --save class-validator class-transformer
+- S2: Define dto class to validate 
+- S3: Add rule as a decorator to validate fields (E.g: @IsString(), @IsNumber(), @Max(), @Min())
+---> Config?
+- Because nestjs/validate has a validate pipe as a common pipe should we can config with scope level (If you want):
++ The scope level: 
++++ Parameter scope, method scope, Controller scope, Global scope
+
+
+Remember: 
++ Pipe tranform also provider for us many default pipes
++ Nestjs tranform also provider for us many options to tranform data payload
+++++ It is benefits for: auto convert an payload object (body) -> instance of DTO class, 
+    It help clean data before router handle start processing. 
+
+*** Rememer some TIP:
++++ When design business logic for service not common should define inside service code
++++ When design pattern for common verifier (For example: Define decorator for property, Or some pipeLine common for router handler)
+  =====> We should write pipeline common

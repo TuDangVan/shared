@@ -1,0 +1,2 @@
+-- What?
+++ It is class annotated with Injectable() decorator and it implements NestIntercepter interface
