@@ -1,0 +1,9 @@
+What?
+- This is lesson about auto gen api service from an another service, when you 
+don't want re-define dto payload request, and api endpoint for call api service
+How?
++ Step-1: Build an api service with integarte Swagger Open-api
++ Step-2: Create an react-app
++ Step-3: 
+++ Step-3.1: npm i  openapi-typescript openapi-typescript-codegen -D
+++ Step-3.2: Add auto gen command to FE-PROJECT
