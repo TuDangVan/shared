@@ -1,0 +1,2 @@
+- To get state from redux sagas on server:
+We can use: store.getState()

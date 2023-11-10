@@ -1,0 +1,12 @@
+- Remember:
++ When change page use next router (LINK) -> State in redux sagas store still not reset
+
+- Dispatch action in server side
+export async function getServerSideProps(context) {
+  const state = store.getState(); // Access state
+  store.dispatch({ type: 'ACTION_TYPE', payload: 'payload' }); // Dispatch action
+
+  return {
+    props: {}, // Will be passed to the page component as props
+  };
+}
