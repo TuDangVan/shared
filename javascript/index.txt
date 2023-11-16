@@ -1,0 +1,3 @@
+- Compare value:
++ Only compare value use: ==
++ Compare both type and value use: ===
