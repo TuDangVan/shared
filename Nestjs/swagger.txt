@@ -1,0 +1,1 @@
+- To extends multiple class in nestjs swagger, we can use IntersectionType (in nestjs swagger core)
