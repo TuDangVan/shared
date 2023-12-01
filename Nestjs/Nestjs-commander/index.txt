@@ -1,0 +1,12 @@
+- What?
++ This is nestjs library allow run command on nestjs project
+
+- How?
++ We can define command class extends CommandRunner
+
+- Remember when run command in nestjs to pass all key value to command, we need add -- before every parameter
+For example: npm run set-up-admin-account -- --email admin@pixta.vn -p 1
+
+With example will pass all email, p to command set-up-admin-account
+
+=> Result: node dist/command.mjs cmd-setup-admin-account --email admin@pixta.vn -p 1

@@ -1,0 +1,1 @@
+use @nestjs/mapped-types
