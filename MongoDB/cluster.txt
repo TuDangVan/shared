@@ -1,0 +1,5 @@
+- What?
++ Clusters: 
++++ Used for two idea to design system
++++ The fisrt: Cluster can used to replica set (Cloud system to backup data)
++++ The second: Cluster can used to sharded cluster (Cloud system to sharing data between many servers)
