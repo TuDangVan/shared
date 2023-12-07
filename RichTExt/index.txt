@@ -1,0 +1,6 @@
+- TO autofocus richtext: call: richtextRef?.current?.focus()
+- To auto cotrol text selection
++++ Use: 
+const quill = quillRef.current.getEditor();
+const length = quill.getLength(); // Get the length of the text
+quill.setSelection(length, length); // Set the cursor position to the end
