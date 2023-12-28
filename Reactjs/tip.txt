@@ -1,0 +1,2 @@
+- With svg component, we only define an svg file which include svg component inside
+- After to can use svg component we can use ReactComponent

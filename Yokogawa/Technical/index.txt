@@ -1,0 +1,14 @@
+- Front-end:
++ Webpack bundle & optimized files
++ Load & Bundle & Compiler js module => Webpack
++ Build & Develop Front-end => ReactJs
++ Build Modal 3D => ThreeJS
++ State Management => Mobx
++ Base: HTML/CSS => html5, scss
++ Multiple language: i18n
++ Base component: antd design, primereact
++ Draw Chart: pylotJs
++ Can use indexDB, to optimized void client request same request to get data, Or cache data on client
++ Use Window Event Emitter
+
+- Backend: C#/ .Net

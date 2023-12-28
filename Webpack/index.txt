@@ -1,0 +1,39 @@
+- What?
++ Webpack is static module, it used to compile javascript module.
++ It used to build source js/ts/jsx/tsx to js file (It included files already optimized.) (It will have many mode dev or production)
++ In an some framework like: nextjs, nestjs, it already support about build & optimized source. But with some project specify we need 
+build an manually source we can use webpack to process this issue.
+
+- How?
++ We can interact with webpack from cli or api
+
+++ Solution 1: Use cli
+++++ 
+For configured, webpack can config easy at webpack.config.js file
+At webpack config 
+++ Solution 2: Use Api
+
+- Benefit?  
++ Like discuss at first of document. Moreover webpack can dynamioc bundle module or graph dependences related, 
+it will help avoid bundle module unused
++ An feature of webpack, we can use it to bundle for any type of files, besides javascript files, for example: css, images/*, ... 
+
+Why?
+- Why call webpack is static module bundler?
++ Webpack can call is an static module bundle when it used to bundle static file likes: image, css, html, or another code static...
++ Answer: Because when build webpack in javascript app, It will build all dependences as a static module js
++ Webpack will start run from CMD, or modules which config at webpack.config file, after it will auto internally build 
+an static js module files where will includes all dependences required in modules (in webpack config file). And this file will 
+bundle to client
+
++ Beside webpack can call is an dynamic bundle, when It can bundle dynamic module if need
+
+Question?
+Why need use webpack? 
+- Webpack will help we compile all extension (.ts, .tsx, .jsx....) to javascript code file
+
+what advantage of it?
+- Like this concept, webpack will help we build source to standard javascript language.
+- It can optimized when we excute build process, It will help for production enviroment can work stable.
+- It also help we bundle assets file like: css, images (jpg, png, ...)
+what defect of it?

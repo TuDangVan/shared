@@ -62,7 +62,7 @@ E.x: Constants are values that are bound to a name (Những hằng là các giá
 52: annotations: chú thích ----> [an(en) no ta tions]
 53: may be set only: Chỉ có thể được đặt
 55: able: có thể
-56: suffix: hậu tố
+56: suffix: hậu tố, suffix: hau to
 57: prefix: tiền tố
 58: explain: giải thích 
 59: proper: thích hợp
@@ -78,5 +78,31 @@ Don't modify the following two lines
 67: approaches: tiếp cận
 68: probably: có lẽ
 69: association: sự kết hợp
-70: otherwise: neu khong thi
-71: combin: ket hop
+70: otherwise: nếu không thì
+71: combin: kết hợp
+72: internally: nội bộ
+73: intended: dự định
+74: interact: tương tác
+75: proper: thích hợp
+76: implicit: ngầm
+77: explicitly: [ikˈsplisitlē] rõ ràng
+78: immediately: ngay lập tức
+79: forced: bị ép
+80: tweak: [twēk]:điều chỉnh, tinh chỉnh
+81: eventually: [əˈven(t)SH(o͞o)əlē]: Sau cùng
+82: Later on: Sau này
+83: recognize: nhận ra
+84: inspect: quan sát
+85: ingenious: khéo léo
+87: coolest: lạnh nhất
+88: incorporate: kết hợp , incorporate, incoporate, incorporate
+89: Nevertheless: Tuy nhiên
+90: serve: phục vụ
+91: necessary:[ˈnesəˌserē] cần thiết
+92: adjust: [əˈjəst]: điều chỉnh
+93: accidental: [ˌaksəˈden(t)l]: tình cờ
+94: so forth: vân vân
+95: stable: ổn định
+96: So far: cho đến nay
+97: cluttered: lộn xộn
+98: Manifest: rõ ràng

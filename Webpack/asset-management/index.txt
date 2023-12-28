@@ -1,0 +1,32 @@
+- What?
++ We will learn about load asset with another types, besides javascript files.
+For example: css, html, image, so forth.
+
+- How?
++ Still old base concept about webpack, It will run from webpack config files
++ For example:
+Loading css dependences:
+- Each modules loaded in webpack?
+How webpack can loaded? with dependences
+==> Base Idea: Loaded it as a chain.
+- Webpack will load module necessary, It will try find this module in node_modules,
+if not_found shell interface will throw an error. Please install this module to fix it.
+
++ To load asset likes: image or fonts, we can use an module build in webpack, it is Asset Module.
+
+Loading Images:
+
+- To asset management, each item inside rules is an loader:
+For example:
+ rules: [
+    {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+    }, ===> first loader
+    {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+    }, ===> second loader
+ ]
+
+Loading Fonts:

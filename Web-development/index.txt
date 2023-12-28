@@ -1,0 +1,3 @@
+- An web application work:
++ When an module (import) use dependence but not used it in code
+===> Web Browser will auto forced to download these library which not used
