@@ -26,7 +26,6 @@ both bundles
 *** SplitChunksPlugin
 + The SplitChunksPlugin allows us to extract common dependencies into an existing entry
 
-
 + Dynamic Imports: (Should use this solution for Production)
 -  What?
 

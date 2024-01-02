@@ -224,3 +224,8 @@ E.g:
     3) The oil which is extracted from olives is used for cooking.
 
 110: de-duplicate: khử trùng lặp
+
+111: confirm [kənˈfɔːrm]: phù hợp
+E.g:
+    1) At our school, you were required to conform, and there was no place for originality.
+    (Tại trường của chúng tôi, bạn được yêu cầu phải tuân thủ, và không có chỗ cho sự độc đáo)
