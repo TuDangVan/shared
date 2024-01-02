@@ -7,7 +7,10 @@
 7. confidence [ˈkänfədəns]: tự tin
 8. devoted: tận tâm
 9. exploits: khai thác
-10. demands: yêu cầu
+10. demand: yêu cầu, demand, demand, demand ===> yêu cầu | yêu cầu
+E.g:
+    1) The library demanded $5 for each book returned late.
+    (Thư viện yêu cầu trả 5 đô cho mỗi quyển sách trả muộn)
 11. convention: quy ước (Hay dùng để nói về coding convention)
 12. so far: cho đến nay
 13. obtain: đạt được
@@ -76,6 +79,9 @@ E.x: Constants are values that are bound to a name (Những hằng là các giá
 Don't modify the following two lines
 66: Rather: hơn là
 67: approaches: tiếp cận
+E.g:
+    1) There are three general approaches to code splitting available:
+     - Entry points: 
 68: probably: có lẽ
 69: association: sự kết hợp
 70: otherwise: nếu không thì
@@ -106,3 +112,115 @@ Don't modify the following two lines
 96: So far: cho đến nay
 97: cluttered: lộn xộn
 98: Manifest: rõ ràng
+99: probably: 
+100: offers: cung cấp / đề nghị
+E.g: 
+    1) She was offered a new job (Cô ấy đã đề nghị một công việc mới)
+    2) My father offered to take us to the airport (Bố tôi đã đề nghị đưa chúng tôi tới sân bay.)
+101: instruct: hướng dẫn
+E.g:
+    1) I need someone to instruct me on how to use the computer. (Tôi cần một ai đó hướng dẫn tôi làm như thế nào để sử dụng máy tính)
+101: Hassle: rắc rối
+E.g:
+    1) Bad weather was the major hassel during our trip.
+    (Thời tiết tồi là rắc rối lớn trong suốt chuyến đi của chúng tôi)
+    2) I got into a hassel with my father about being late.
+    (Tôi đã gặp răc rối với ba của tôi về việc đến muộn).
+    3) I can't face the hassel of moving again.
+102: downside: nhược điểm
+E.g:
+    1) It's a great plan - the downside is that it's going to cost a lot of money
+    (Đó là một kế hoạc tốt, nhược điểm là sẽ tốn rất nhiều tiền)
+    2) The only downside of working here is that, it is so far from my home.
+103: desired: mong muốn
+E.g: 
+    1) 
+104: splitting: chia tách
+E.g: 
+    1) The splitting of water into its components of hydrogen and oxygen is critical
+    (Việc tách nước thành các thành phần hydro và oxy là rất quan trọng)
+    2) I woke up with a splitting headache
+105: Achieve: đạt được
+E.g:
+    1) I am hopeful that we can achieve peace eventually, but it is going to be easy.
+    (Tôi hy vọng rằng chúng ta có thể đạt được hòa bình sau cùng, nhưng nó là không dễ dàng)
+106: Peace: hòa bình
+107: compelling: thuyết phục
+E.g: 
+    1) His account of his life is one of the most compelling autobiographies I've read.
+    (Lời kể của ông về cuộc đời lình là một trong những cuốn tự truyện hấp dẫn nhất mà tôi được đọc)
+
+** One of the most: Một trong những
+
+108: major [ˈmājər]: lớn lao
+
+E.g:
+    1) We awaited major new developments in the peace talks.
+    (Chúng tôi chờ đợi những diễn biến mới quan trọng trong các cuộc đàm phán hòa bình)
+    2) A major scale
+    (Một quy mô lớn)
+
+109: impact [ˈɪm.pækt]: va chạm, tác động
+
+E.g: 
+    1) The bullet explodes on impact
+    (Viên đạn nổ khi va chạm)
+    2) The environmental impact of this project will be enormous
+    (Tác động đến môi trường của dự án này sẽ rất lớn)
+
+102: Enormous [iˈnôrməs]: rất lớn [**** Relative with 109]
+
+103: dedupe: lừa dối
+
+104: via: thông qua | qua
+E.g:
+    1) I sent the application papers via fax.
+    (Tôi đã gửi đơn đăng ký qua fax)
+    2) Reports are coming in via satellite
+    (Những báo cáo là đang đến qua vệ tinh)
+    3) I only found out about it via my sister
+    (Tôi chỉ biết nó qua chị gái tôi)
+
+105: This is by far: điều này cho đến nay
+
+106: pitfalls [ˈpɪt.fɑːl]: cạm bẫy
+
+E.g: 
+    1) Who knows what kind of pitfalls they're going to run into
+    (Ai mà biết được họ sẽ phải loại cạm bẫy nào?)
+
+    2) There's a video that tells new students about pitfalls to avoid.
+    (Có một video hướng dẫn cho những học sinh mới về những cạm bẫy cần tránh)
+
+    3) The store fell into one of the major pitfalls of small business, borrowing from suppliers by paying bills late.
+    (Cửa hàng rơi vào một trong những cạm bẫy lớn của doanh nghiệp nhỏ, vay mượn từ nhà cung cấp bằng cách thanh toán hóa đơn chậm)
+
+** Some sentence:
+- We will go over
+
+107: yield: phẩm vật, sản phẩm, mang lại
+E.g:
+    1) A letter found by the FBI last week may yield new clues.
+    (Một là thư được FBI tìm thấy vào tuần trước có thể mang lại manh mối mới)
+    2) To yield power
+    (Để mang lại sức mạnh)
+    3) An attempt to yield increased profits
+    (Một nỗ lực để mang lại lợi nhuận tăng lên)
+
+108: consistent [kənˈsɪs.tənt]: nhất quán
+E.g:
+    1) The president has been remarkably consistent on economic issues
+    (Tổng thống đã có sự nhất quán đáng kinh ngạc về các vấn đề kinh tế)
+
+    2) There has been a consistent improvement in her attitude
+    (Đã có sự cải thiện nhất quán trong thái độ của cô ấy)
+
+109: extract [ɪkˈstrækt]: trích xuất
+E.g:
+    1) The dentist had to extract one of Miguel's teeth.
+    (Nha sĩ đã phải nhổ một chiếc răng của Miguel)
+    2) They used to extract iron ore from this site.
+    (Họ từng khai thác quặng sắt từ địa điểm này.)
+    3) The oil which is extracted from olives is used for cooking.
+
+110: de-duplicate: khử trùng lặp

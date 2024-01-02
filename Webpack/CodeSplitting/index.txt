@@ -1,0 +1,34 @@
+- What?
+Code splitting is one feture of webpack. It used to split code 
+into various bundles which can then be loaded on demand or 
+parallel.
+
+Normal understand: The same with code, with build code, we also want split to 
+many build files and we can control resource load prioritization
+
+- How?
+There are three general approaches to code splitting available:
+
++ Entry Points:
+- What?
+It is a approaches which we mus manually split code useing entry configuration
+* Downside:
+- If three are any duplicated modules between entry chunks, they still will be included in 
+both bundles
+- It isn't as flexible and can't be used to dynamically split code with the core application logic.
+- How?
+
++ Prevent Duplication:
+- What?
+*** Entry dependencies
++ The dependOn Option allows to share the modules between the chucks.
+
+*** SplitChunksPlugin
++ The SplitChunksPlugin allows us to extract common dependencies into an existing entry
+
+
++ Dynamic Imports: (Should use this solution for Production)
+-  What?
+
+
+
