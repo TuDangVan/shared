@@ -1,0 +1,4 @@
+What?
+- Purpose of this solution techinical, to guaranteed about caching while build module with webpack
+How?
+- When an file build, webpack will track and re-build this file if ir not change

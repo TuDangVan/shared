@@ -1,0 +1,26 @@
+- What?
+1) Use Loaders (in optinal module) to load minimal number of modules necessary.
+2) Some solutions:
++ Minimize the number of items in resolve.modules, resolve.extensions
+--> They increase the number of filesystem calls
++ Set resolve.symlinks = false => If we don't use symlinks
++ Set resolve.cacheWithContext = false => If we use custom resolving plugins
+
+3) Use DllPlugin:
+- It will move code that is changed less often into a separate compilation.
+- Optimize about compiler code, this will improve the application's compilation speed.
+
+4) Smaller = Faster
+- Decrease the total size of the compilation file to increase build performance.
+- Try to keep chucks small:
++ Use fewer/smaller libraries.
++ Use the SplitChucksPlugin in Multi-Page Application
++ Use the SplitChucksPlugin in async mode in Multi-Page Application
++ Remove unused code.
++ Only compile code which necessary
+
+5) Worker Pool
+- Minimize the module tranfers between worker and main process.
+
+6) Persistent Cache
+- Use cache option in webpack configuration

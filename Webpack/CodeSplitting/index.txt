@@ -28,6 +28,28 @@ both bundles
 
 + Dynamic Imports: (Should use this solution for Production)
 -  What?
+This is aproache to can import async module in js
+
+**** Prefetching / Preloading modules
+- Prefetch: Tài nguyên là có thể cần cho một vài điều hướng trong tương lai
+- Preload: Tài nguyên cũng sẽ cần trong điều hướng hiện Tại
+
+**** Compare diference between preload and Prefetch
+- About chuck: 
++ Preload chuck loading in parallel to the parent chuck.
++ Prefetched chuck start after the parent chuck loading finish
+
+- About priority:
++ Preload chuck has medium priority and is instanly downloaded (Tải ngay lập tức)
++ Prefetch chuck is downloaded while the browser is idle.
+
+- Time chuck: (Thời điểm chuck)
++ Preload chuck should be instantly requested by the parent chuck.
++ Prefetch chuck can be used anytime in the future.
+
+
+
+
 
 
 

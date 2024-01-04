@@ -33,6 +33,8 @@ E.g:
 30. Sequence: Tuần tự
 31. accomplish: Hoàn thành
 32. manifest: rõ ràng
+E.g:
+    1) The wokers chose to mainfest their dissatisfaction in a series of strikes.
 33. prevent: ngăn chặn
 34. take a moment: dành 1 chút thời gian
 35. safety: an toàn
@@ -83,6 +85,13 @@ E.g:
     1) There are three general approaches to code splitting available:
      - Entry points: 
 68: probably: có lẽ
+E.g:
+    1) I'll probably be home by midnight
+    (Có lẽ tôi sẽ về nhà lúc nửa đêm)
+    2) I'm probably going - it depends on the weather
+    (Có lẽ tôi sẽ đi, nó phụ thuộc vào thời tiết)
+    3) He probably didn't event notice
+    (Có lẽ anh ấy còn không để ý)
 69: association: sự kết hợp
 70: otherwise: nếu không thì
 71: combin: kết hợp
@@ -229,3 +238,103 @@ E.g:
 E.g:
     1) At our school, you were required to conform, and there was no place for originality.
     (Tại trường của chúng tôi, bạn được yêu cầu phải tuân thủ, và không có chỗ cho sự độc đáo)
+
+112: instruct [ɪnˈstrʌkt]: dạy
+E.g:
+    1) I need someone to instruct me on how to use the computer
+    (Tôi cần một ai đó hướng dẫn tôi làm thế nào để sử dụng máy tính)
+
+113: bunch [bʌntʃ]: bó, trùm, nhóm (Chỉ một tập hợp)
+E.g:
+    1) We ate a whole bunch of grapes
+    (Chúng tôi đã ăn cả chùm nho)
+    2) They're a nice bunch of people
+    (Họ là một nhóm người tốt)
+    3) Your friends are a nice bunch.
+    (Bạn bè của bạn là một nhóm tốt)
+    4) As a little girl she wore her hair in bunches
+    (Hồi còn là một cô bé, cô ấy đã buộc tóc thành trùm)
+
+114: instantly [ˈɪn.stənt.li]: ngay lập tức
+E.g:
+    1) With e-mail you can send a message across the world almost instanly
+    (Với thư điện tử bạn có thể gửi tin nhắn đi khắp thế giới ngay lập tức)
+
+115: idle [ˈaɪ.dəl]: nhàn dỗi, không hoạt động
+E.g: 
+    1) The machines are stading idle because there are no spare parts.
+    (Máy móc đứng yên vì không có phụ tùng thay thế)
+
+116: latency [ˈleɪ.tən.si]: độ trễ
+    1) They measured the latency of the brain's response to a stimulus
+    (Họ đã đo độ trễ phản ứng của não với một kích thích)
+
+117: till [tɪl]: cho đến khi
+E.g: 
+    1) Tell him to take it easy till we get there.
+    (Bảo anh ấy bình tĩnh cho đến khi chúng ta đến đó)
+    2) How long is it till the baby is due?
+    (Còn bao lâu nữa thì em bé trào đời)
+
+118: Interactive [ˌɪn.t̬ɚˈræk.tɪv]: tương tác
+E.g:
+    1) The ocean and the atmosphere form an interactive system
+    (Đại dương và khí quyển tạo thành một hệ thống tương tác)
+
+119: reflect [rɪˈflekt]: phản ánh
+E.g:
+    1) The light reflected off the surface of the water
+    (ánh sáng phản chiếu trên mặt nước)
+
+120: certain [ˈsɝː.tən]: chắc chắn
+E.g:
+    1) One thing is certain - supporters of the bill are not giving up
+    (Một điều chắc chắn, những người ủng hộ dự luật sẽ không bỏ cuộc)
+
+121: recap [ˈriː.kæp]: Tóm tắt lại
+E.g:
+    1) To recap, we expect sunny skies in the morning, rain by nightfall.
+    (Tóm lại, chúng tôi trời nắng sẽ vào buổi sáng, mưa sẽ vào buổi tối)
+    2) We saw a video recapping her early career
+    (Chúng tôi đã xem một đoạn video kể lại sự nghiệp ban đầu của cô ấy)
+
+122: compatible [kəmˈpæt̬.ə.bəl]: tương thích
+E.g:
+    1) The computer software isn't compatible with your operating system.
+    (Phần mềm máy tính là không tương thích với hệ điều hành của bạn)
+    2) Levine said he is lucky he and his roommate are compatible
+    (Levine nói anh ấy rất may mắn vì anh ấy và bạn cùng phòng của anh ấy là hợp nhau)
+
+113: sufficient [səˈfɪʃ.ənt]: hợp lý
+E.g:
+    1) This recipe should be sufficient for five people.
+    (Công thức này đủ cho 5 người)
+
+114: recipe [ˈresəˌpē]: công thức
+
+115: One by one: từng cái một
+
+E.g:
+    1) The children filed out ò the bus, one by one
+    (Bọn trẻ lần lượt bước ra khỏi xe buýt)
+
+116: portions [ˈpɔːr.ʃən]: Chia ra
+
+
+117: substantial [səbˈstæn.ʃəl]: đáng kể
+
+E.g:
+    1) He took a substantial amount of money.
+    (Anh ấy đã lấy một số tiền đáng kể)
+
+118: pressure [ˈpreʃ.ɚ]: áp lực
+E.g:
+    1) They put a lot of pressure on him to resolving
+    (Họ đã gây nhiều áp lực khiến anh ấy phải nghỉ việc)
+
+119: capable [ˈkeɪ.pə.bəl]: có khả năng
+E.g:
+    1) She's very capable lawyer
+    (Cô ấy là một luật sư rất có năng lực)
+    2) We need to get an assistant who's capable and efficient
+    (Chúng tôi cần một trợ lý có năng lực và làm việc hiệu quả)
