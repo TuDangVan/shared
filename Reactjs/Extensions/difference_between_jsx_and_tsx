@@ -1,0 +1,6 @@
+** Similar 
+- Both jsx and tsx is extension (that mean it will extents javascript language) and allow we can write Html code inside javascript code, after code will compiled to javascript code and computer will use an engine (like as: V8 engine is core inside Nodejs framework)
+
+** Difference between jsx and tsx:
+- jsx file only use javascript systax to write and build code
+- tsx file use both javascript systax and it help define static data type to check error in development progress.
