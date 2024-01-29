@@ -338,3 +338,5 @@ E.g:
     (Cô ấy là một luật sư rất có năng lực)
     2) We need to get an assistant who's capable and efficient
     (Chúng tôi cần một trợ lý có năng lực và làm việc hiệu quả)
+
+120: threshold [ˈTHreSHˌ(h)ōld]: ngưỡng

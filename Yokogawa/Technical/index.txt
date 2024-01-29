@@ -6,9 +6,12 @@
 + State Management => Mobx
 + Base: HTML/CSS => html5, scss
 + Multiple language: i18n
-+ Base component: antd design, primereact
 + Draw Chart: pylotJs
 + Can use indexDB, to optimized void client request same request to get data, Or cache data on client
-+ Use Window Event Emitter
++ Use Window Event Emitter: on/off/emit
++ Component & Custom: antd design, primereact, Styled-Component
++++ Resize component: SizeMe react lib
++ Notifications: Use hub SingalR from @microsoft/signalr
++ Push event between multiple component: eventBus => on/off/emit 
 
 - Backend: C#/ .Net

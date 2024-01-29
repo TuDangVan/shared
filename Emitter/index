@@ -1,0 +1,5 @@
+What?
+- Listen event at global nodejs application, it work on javascript run time enviroment
+How?
+- It use some event defined in this library
++ on / off / emitter
