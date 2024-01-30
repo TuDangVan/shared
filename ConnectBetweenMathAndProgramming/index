@@ -1,0 +1,24 @@
+n = {1,2,3,4,5,6,7,8}
+
+=> k = 3,   k = 4
+{1,2,3}     {1,2,3,4}  
+{1,2,4}     {1,2,3,5}
+{1,2,5}     {1,2,4,5}
+            {2,3,4,5}
+            {2,3,4,6}
+            {2,3,4,7}
+            {2,3,4,8}
+x1: 0 -> n-k
+x[k]: x[k-1] + k()
+
++ Number solutions: 
+
++ Hoan vi: n*(n-1)*(n-2)*..*2*1
+
++ Pesodu code:
+B1: Init config with first element in result 
++ MIN = arr_input[0]
++ MAX = arr_input[n-k]
+
+
+

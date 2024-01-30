@@ -1,0 +1,26 @@
+What?
+- This is an abstract concept, it can understand like as we already have an collection, after we want find number solutions to can get an sub-collection from parent collection.
+
+- Through by practice, we will define an formula:
+Solutions = n! = n*(n-1)*(n-2)*...2.1
+
+- Explain formula:
+=> We explain for sample:
+For example: We have 10 chairs, and 10 students and we want allocate 10 students to 10 chairs
++ We use count solution to solve this problem: 
+++ Call 10 chairs have id from A -> B (with alpha-beta rule)
+++ Call 10 students have id from 1 -> 10
+++ So, We will have list students id: list_student_ids = [A, B, C, D, E, F, G, H, I, J]
+++ And we also have list chairs id: list_chair_ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+++ With each chairs id we will allocate it for an student:
+++ So:
++++ A => 10 solutions (Because will have 10 chairs options)
++++ B => 9 solutions (Because only 9 chairs options)
++++ C => 8 
++++ D => 7
++++ E => 6
++++ F => 5
++++ G => 4
++++ H => 3
++++ I => 2
++++ J => 1

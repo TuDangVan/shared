@@ -1,5 +1,6 @@
 import './App.css';
 import { ComponentA } from './components/componentA';
+import { EVENT } from './utils/constants/event.constants';
 
 function App() {
   eventBus.emit(EVENT.LOGIN, {
@@ -11,7 +12,7 @@ function App() {
 
   return (
       <div className="App">
-          <ComponentA />
+        <ComponentA />
       </div>
   );
 }

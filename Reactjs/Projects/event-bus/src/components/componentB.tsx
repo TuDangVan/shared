@@ -1,5 +1,5 @@
 import * as React from "react";
-import { eventBus } from "../Utils/eventEmitter";
+import { eventBus } from "../utils/eventEmitter";
 import { EVENT } from "../utils/constants/event.constants";
 export const ComponentB = () => {
 
